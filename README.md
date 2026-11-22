@@ -11,27 +11,29 @@
 
 ## структура проекта
 
+```
 lab04/
 ├── src/
-│ └── algonum/
-│ ├── init.py # инициализация пакета
-│ ├── main.py # демонстрация
-│ ├── errors.py # исключения
-│ ├── recurrence.py # лестница
-│ ├── sorting.py # bubble_sort и merge_sort
-│ ├── stack.py # структура данных Stack
-│ ├── generators.py # 5 типов массивов
-│ └── benchmark.py # сравнение скорости сортировок
+│   └── algonum/
+│       ├── __init__.py # инициализация пакета
+│       ├── __main__.py # демонстрация
+│       ├── errors.py # исключения
+│       ├── recurrence.py # лестница
+│       ├── sorting.py # bubble_sort и merge_sort
+│       ├── stack.py # структура данных Stack
+│       ├── generators.py # 5 типов массивов
+│       └── benchmark.py # сравнение скорости сортировок
 ├── tests/
-│ ├── test_sorting.py # 11 тестов сортировок
-│ ├── test_stack.py # 11 тестов стека
-│ ├── test_recurrence.py # 10 тестов лестницы
-│ ├── test_generators.py # 10 тестов генераторов
-│ └── test_benchmark.py # 10 тестов бенчмарка
+│   ├── test_sorting.py # 11 тестов сортировок
+│   ├── test_stack.py # 11 тестов стека
+│   ├── test_recurrence.py # 10 тестов лестницы
+│   ├── test_generators.py # 10 тестов генераторов
+│   └── test_benchmark.py # 10 тестов бенчмарка
 ├── pyproject.toml # настройки проекта
 ├── .pre-commit-config.yaml
 ├── .gitignore
 └── README.md
+```
 
 ## запуск и установка
 
