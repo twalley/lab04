@@ -191,10 +191,10 @@ def analyze_complexity(results: dict) -> str:
             lines.append(f"\t\t* Размер увеличился в {size_ratio:.0f} раз")
             lines.append(f"\t\t* Время увеличилось в {time_ratio:.1f} раз")
             lines.append(
-                f"\t\t*Если б сложность была O(n²), время выросло б в {expected_quadratic:.0f} раз"
+                f"\t\t* Если б сложность была O(n²), время выросло в {expected_quadratic:.0f} раз"
             )
             lines.append(
-                f"\t\t*Если б сложность была O(n log n), время выросло б в {expected_nlogn:.1f} раз"
+                f"\t\t* Если б сложность была O(n log n), время выросло в {expected_nlogn:.1f} раз"
             )
             lines.append("")
 
